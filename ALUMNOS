@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content ="width=device-width,inicial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Ejemplo Alumnos</h1>
+        <script>
+            fetch("mfo493_2023_10.json")
+            .then(response.ok)
+                if(response.ok){
+                    console.log("response.ok+response.ok");
+                    return response.text()
+                }else{
+                    throw new Error(response.status);
+                }
+                then(data => { {
+    "Nombre";"Cristina Voda",
+    "email" ; "cristinavoda483@gmail.com",
+    "linked" ; "https://www.linkedin.com/in/cristinavoda",
+    "github" ; "https://github.com/cristinavoda/alumnos-",
+    "url" ;"https://www.crisrinavoda.com/",
+    "imagen"; "alumno8.png",
+    "descripcion" ; "Web portfolio de diseño gráfico y fotografía",
+    "inicio" ; {
+    "html" ; 2,
+    "css" ; 1,
+    "JS" ; 1,
+    "VUE"; 0,
+    "SQL" ;1,
+    "API";1,
+    "node.js" ; 1,
+    "express" ; 1
+    };
+    "fin" ; {
+    "html" ; 4,
+    "css" ;1,
+    "JS" ;1,
+    "VUE" ; 2,
+    "SQL"; 2,
+    "API" ;2,
+    "node.js" ; 1,
+    "express" ; 1
+    
+    
+    }
+};
+                    console.log("Datos:" + data);
+                    const clasebarna=JSON.parse(data);
+                    console.log(":registro:nombre curso :"+clasebarna.curso)
+                });
+                
+
+            
+        </script>
+    </body>
+</html>
