@@ -22,8 +22,17 @@ Analizamos el contenido del archivo JSON y si muestra información relevante en 
 Uso
 Este código HTML se utiliza para recuperar y mostrar información de un archivo JSON. Puedes personalizar el archivo JSON y la forma en que se muestra la información para adaptarlo a tus necesidades. NoS aseguramos de que el archivo JSON esté en la ubicación correcta y que los datos en el archivo JSON sean válidos para que el código funcione correctamente.
 
-Notas
+
+
 Nos aseguramos de que el archivo "mfo493_2023_10.json" exista en la ubicación especificada y que contenga datos válidos en formato JSON.
 Si deseamos modificar el código para mostrar la información de manera diferente o utilizarla de alguna otra manera, puedemos hacerlo personalizando el script JavaScript.
 Este archivo ReadMe proporciona una visión general del propósito y el funcionamiento del código HTML proporcionado.
-Finalmente hemos hecho un "deploy"en Netlifly -URL : https://app.netlify.com/sites/benevolent-pothos-9ae99b/deploys/654d40cda7a562007862d439. 
+ Abrimos la Terminal ,con los comandos cd y cd.. nos situamos en la direccion corecta.
+ Copiamos el link del boton Clone del reposirorio que trabajamos  y en Terminal escribimos el git clone +link
+   Eentramos en la carpeta generada con cd+nombre carpeta,despues el comando code.
+   Al final hacemos los comandos:
+   git add.
+   git commit -"mesaje"
+   git push
+
+  Finalmente hemos hecho un "deploy"en Netlifly -URL : https://app.netlify.com/sites/benevolent-pothos-9ae99b/deploys/654d40cda7a562007862d439. 
